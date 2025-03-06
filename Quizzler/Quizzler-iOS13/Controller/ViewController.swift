@@ -13,8 +13,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var progressBar: UIProgressView!
-    @IBOutlet weak var trueButton: UIButton!
-    @IBOutlet weak var falseButton: UIButton!
+    @IBOutlet weak var optionThreeBtn: UIButton!
+    @IBOutlet weak var optionTwoBtn: UIButton!
+    @IBOutlet weak var optionOneBtn: UIButton!
     
     var quizBrain = QuizBrain()
     
@@ -40,12 +41,20 @@ class ViewController: UIViewController {
     
     @objc  func updateUI() {
         questionLabel.text = quizBrain.getQuestionText()
+        let answerOptions = quizBrain.getOptions()
+        optionOneBtn.setTitle(answerOptions[0], for: .normal)
+        optionTwoBtn.setTitle(answerOptions[1], for: .normal)
+        optionThreeBtn.setTitle(answerOptions[2], for: .normal)
+        
         progressBar.progress = quizBrain.getProgress()
         scoreLabel.text = "Score: \(quizBrain.getScore())"
-        trueButton.backgroundColor = UIColor.clear
-        falseButton.backgroundColor = UIColor.clear
-        trueButton.setTitleColor(UIColor.white, for: .normal)
-        falseButton.setTitleColor(UIColor.white, for: .normal)
+        
+        optionOneBtn.backgroundColor = UIColor.clear
+        optionTwoBtn.backgroundColor = UIColor.clear
+        optionThreeBtn.backgroundColor = UIColor.clear
+        optionOneBtn.setTitleColor(UIColor.white, for: .normal)
+        optionTwoBtn.setTitleColor(UIColor.white, for: .normal)
+        optionThreeBtn.setTitleColor(UIColor.white, for: .normal)
     }
     
 }

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2A3FA568-B7AB-4DD8-ADA2-1A4ACC831D7C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "783EE917-BD79-4510-86A5-C1EB1C64F864"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Quizzler-iOS13/Model/QuizBrain.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "getOptions()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "783EE917-BD79-4510-86A5-C1EB1C64F864 - 1e86e531e9c56d39"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Quizzler_iOS13.QuizBrain.getOptionTextOf(Swift.Int) -&gt; Swift.String"
+                  moduleName = "Quizzler-iOS13.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dwaraka-poreddy/Desktop/ios_development_d/Quizzler/Quizzler-iOS13/Model/QuizBrain.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42">
+               </Location>
+               <Location
+                  uuid = "783EE917-BD79-4510-86A5-C1EB1C64F864 - 44e95fefbeeb5f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Quizzler_iOS13.QuizBrain.getOptions() -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "Quizzler-iOS13.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dwaraka-poreddy/Desktop/ios_development_d/Quizzler/Quizzler-iOS13/Model/QuizBrain.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

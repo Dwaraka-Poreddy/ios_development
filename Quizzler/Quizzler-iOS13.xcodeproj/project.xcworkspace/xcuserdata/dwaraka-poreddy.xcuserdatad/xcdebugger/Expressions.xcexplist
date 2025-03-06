@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "QuizBrain.getOptionTextOf(_:):QuizBrain.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "quiz[questionNumber].answerOptions[optionIndex]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
